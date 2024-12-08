@@ -1,0 +1,115 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="16dp"
+        android:paddingBottom="56dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_destination_image"
+            android:layout_width="match_parent"
+            android:layout_height="192dp"
+            android:layout_marginTop="8dp"
+            app:shapeAppearanceOverlay="@style/RoundedImageView"
+            android:scaleType="centerCrop"
+            tools:src="@tools:sample/backgrounds/scenic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                style="@style/Text.H1"
+                tools:text="Destinasi Wisata"
+                />
+
+            <ImageButton
+                android:id="@+id/btnShare"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:contentDescription="@string/detail_share"
+                android:src="@drawable/outline_share_24"
+                android:background="@drawable/rounded_background"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            style="@style/Text.Subtitle"
+            tools:text="Lokasi Wisata"
+            app:drawableStartCompat="@drawable/outline_location_on_24"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="8dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvTicketPrice"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                style="@style/Text.Body"
+                tools:text="Harga Tiket"
+                app:drawableStartCompat="@drawable/baseline_money_24" />
+
+            <TextView
+                android:id="@+id/tvOperationalHours"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                style="@style/Text.Body"
+                tools:text="Jam Operasional"
+                app:drawableStartCompat="@drawable/baseline_access_time_24" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/detail_deskripsi"
+            style="@style/Text.H2"/>
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            tools:text="Deskripsi Tempat Wisata"
+            style="@style/Text.Body"
+            android:justificationMode="inter_word"/>
+    </LinearLayout>
+</ScrollView>

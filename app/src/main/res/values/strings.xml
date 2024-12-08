@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Wislu</string>
+    <string name="app_bar_name">Wisata Lumajang</string>
+    <string name="about">About</string>
+    <string name="about_name">Krisna Hadi Prasetya</string>
+    <string name="about_email">krisna77pp@gmail.com</string>
+    <string name="detail_deskripsi">Deskripsi</string>
+    <string name="detail_share">Bagikan</string>
+    <string name="wisatas_name">Nama Tempat Wisata</string>
+    <string name="wisatas_description">Deskripsi Tempat Wisata</string>
+    <string-array name="data_name">
+        <item>Air Terjun Tumpak Sewu</item>
+        <item>Air Terjun Kapas Biru</item>
+        <item>Goa Tetes</item>
+        <item>Hutan Bambu</item>
+        <item>Hutan Pinus Poncosumo</item>
+        <item>Kebun Teh Kertowono</item>
+        <item>Kolam Renang Tirtosari</item>
+        <item>Pantai Bambang</item>
+        <item>Pantai Watu Pecak</item>
+        <item>Ranu Kumbolo</item>
+        <item>Ranu Regulo</item>
+        <item>Taman Nasional Bromo</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Air Terjun Tumpak Sewu, juga dikenal sebagai Coban Sewu, adalah air terjun spektakuler yang terletak di Lumajang, Jawa Timur. Dikelilingi tebing-tebing hijau dengan air terjun yang menyerupai tirai, lokasi ini menawarkan pemandangan memukau dan pengalaman alam yang menakjubkan.</item>
+        <item>Air Terjun Kapas Biru terletak di Kabupaten Malang, Jawa Timur. Dengan ketinggian sekitar 25 meter, air terjun ini memiliki air yang jernih dan dikelilingi oleh hutan tropis yang hijau, menciptakan pemandangan yang memesona dan menenangkan.</item>
+        <item>Goa Tetes adalah gua alami yang terletak di kawasan Hutan Senduro, Lumajang. Gua ini memiliki formasi stalaktit dan stalagmit yang unik, dengan air yang menetes perlahan membentuk pemandangan geologis yang memukau.</item>
+        <item>Hutan Bambu adalah kawasan hutan dengan dominasi pohon bambu yang rapat dan hijau. Lokasi ini menawarkan pengalaman menenangkan di antara pepohonan bambu yang tinggi, cocok untuk pecinta alam dan fotografi.</item>
+        <item>Hutan Pinus menawarkan udara sejuk dan pemandangan pepohonan pinus yang rapi dan hijau. Suasana tenang dan romantis membuat lokasi ini populer untuk piknik, fotografi, dan menikmati keindahan alam.</item>
+        <item>Kebun Teh membentang luas dengan deretan tanaman teh hijau yang teratur. Pemandangan terasering hijau ini menciptakan lanskap yang menakjubkan, sempurna untuk menikmati keindahan pertanian dan menyegarkan pikiran.</item>
+        <item>Tirtosari View adalah lokasi pemandangan alam yang memukau dengan landscape pedesaan dan pegunungan. Tempat ini menawarkan panorama hijau yang luas, sempurna untuk menikmati keindahan alam Jawa Timur.</item>
+        <item>Pantai Bambang adalah pantai alami dengan pasir hitam yang eksotis. Ombaknya cocok untuk berselancar, sementara pemandangan matahari terbenam membuatnya menjadi destinasi yang sempurna untuk bersantai dan menikmati keindahan alam.</item>
+        <item>Pantai Watu Pecak adalah pantai berbatu dengan pemandangan laut yang memukau. Batu-batu besar dan karang menciptakan lanskap yang unik, cocok untuk fotografi alam dan menikmati keindahan pantai selatan Jawa.</item>
+        <item>Ranu Kumbolo adalah danau indah yang terletak di jalur pendakian Gunung Semeru. Dikelilingi pegunungan hijau, danau ini menawarkan pemandangan memukau dan tempat berkemah yang sempurna bagi para pendaki.</item>
+        <item>Ranu Regulo adalah danau kecil dengan suasana tenang dan alami. Terletak di antara pegunungan, lokasi ini cocok untuk mereka yang mencari ketenangan dan ingin menikmati keindahan alam tersembunyi.</item>
+        <item>Gunung Bromo adalah salah satu gunung berapi paling terkenal di Indonesia, terletak di Taman Nasional Bromo Tengger Semeru. Lanskap lunar-nya yang menakjubkan dan matahari terbit yang spektakuler menjadikan lokasi ini destinasi favorit para pendaki dan fotografer.</item>
+    </string-array>
+    <string-array name="data_location">
+        <item>Besukcukit, Sidomulyo, Kec. Pronojiwo</item>
+        <item>Mulyoarjo, Pronojiwo, Kec. Pronojiwo</item>
+        <item>Besukcukit, Sidomulyo, Kec. Pronojiwo</item>
+        <item>Umbulrejo, Sumbermujur, Kec. Candipuro</item>
+        <item>Krajan, Sumbermujur, Kec. Candipuro</item>
+        <item>Poli, Gucialit, Kec. Gucialit</item>
+        <item>Sumbersari, Penanggal, Kec. Candipuro</item>
+        <item>Rekasan, Bago, Kec. Pasirian</item>
+        <item>Krajan Dua, Selok Awar Awar, Kec. Pasirian</item>
+        <item>Tulungrejo, Pasrujambe, Kec. Pasrujambe</item>
+        <item>Ranupane Satu, Ranupani, Kec. Senduro</item>
+        <item>Ranupani, Jawa Timur</item>
+    </string-array>
+    <string-array name="data_map">
+        <item>https://maps.app.goo.gl/T2WmnfPrByW4LqVq9</item>
+        <item>https://maps.app.goo.gl/aQ9tTWoHLb7T1DYNA</item>
+        <item>https://maps.app.goo.gl/qjBXLPDh581bGLtn6</item>
+        <item>https://maps.app.goo.gl/ohGrEG2MdPMbqzKC9</item>
+        <item>https://maps.app.goo.gl/mB9V8DVJSRUYzHgJA</item>
+        <item>https://maps.app.goo.gl/EgLdys5p2v7aZidC8</item>
+        <item>https://maps.app.goo.gl/gJ65fq7w7zhPuqwd6</item>
+        <item>https://maps.app.goo.gl/UJvb2QiaFaCNFGxR8</item>
+        <item>https://maps.app.goo.gl/CA6ZPd5Sf6grimeJ9</item>
+        <item>https://maps.app.goo.gl/Jn34PzMKc9njC7EDA</item>
+        <item>https://maps.app.goo.gl/1eyk4nb8UtGWYS8i9</item>
+        <item>https://maps.app.goo.gl/EZ9ZnkD1ReKmnqMv9</item>
+    </string-array>
+    <string-array name="data_operational">
+        <item>07.00–15.00</item>
+        <item>07.00–15.00</item>
+        <item>07.25–16.00</item>
+        <item>07.30–17.00</item>
+        <item>07.00–19.00</item>
+        <item>24 jam</item>
+        <item>24 jam</item>
+        <item>07.00–17.00</item>
+        <item>24 jam</item>
+        <item>24 jam</item>
+        <item>24 jam</item>
+        <item>07.30–16.00</item>
+    </string-array>
+    <string-array name="data_ticket">
+        <item>Rp 20.000</item>
+        <item>Rp 10.000</item>
+        <item>Rp 10.000</item>
+        <item>Rp 5.000</item>
+        <item>Gratis</item>
+        <item>Rp 5.000</item>
+        <item>Rp 5.000</item>
+        <item>Rp 5.000</item>
+        <item>Rp 5.000</item>
+        <item>Rp 19.000</item>
+        <item>Rp 20.000</item>
+        <item>Rp 54.000</item>
+    </string-array>
+    <string-array name="data_photo_1">
+        <item>@drawable/tumpak_sewu_1</item>
+        <item>@drawable/kapas_biru_1</item>
+        <item>@drawable/goa_tetes_1</item>
+        <item>@drawable/hutan_bambu_1</item>
+        <item>@drawable/hutan_pinus_1</item>
+        <item>@drawable/kebun_teh_1</item>
+        <item>@drawable/tirtosari_view_1</item>
+        <item>@drawable/pantai_bambang_1</item>
+        <item>@drawable/pantai_watu_pecak_1</item>
+        <item>@drawable/ranu_kumbolo_1</item>
+        <item>@drawable/ranu_regulo_1</item>
+        <item>@drawable/bromo_1</item>
+    </string-array>
+</resources>
